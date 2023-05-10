@@ -134,7 +134,8 @@
 
 			function searchDDG() {
 				search_term = document.getElementById('search_box').value;
-				window.location.href = "https://duckduckgo.com/?q=" + encodeURI(search_term);
+				search_term.autofocus = true;
+				window.location.href = "https://google.com/?q=" + encodeURI(search_term);
 							
 				return false;
 			}
