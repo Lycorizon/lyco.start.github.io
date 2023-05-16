@@ -15,4 +15,6 @@
 	--crimson:	#f04345;
 }
 
-body { background-image: url("img/lycorizon-wall.png"); }
+body {
+	background-image: url("img/lycorizon-wall.png");
+}

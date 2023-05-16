@@ -11,6 +11,11 @@
 	<body class='flexbox' onload="startTime()">
 		<div class="mainbox">
 			<h1 class='title'>Welcome back, <span class='hl'>Lycorizon</span>.</h1>
+			<div class='flexbox search'>	
+			<form onsubmit="return searchDDG()" style='width: 80%;'>
+				<input type="text" placeholder="Search..." id='search_box' autofocus>
+			</form>
+		</div>
 			<table>
 				<tr>
 					<td>
@@ -24,7 +29,7 @@
 							  margin-left: auto;
 							  margin-right: auto;
 							  margin-bottom: auto;
-							  margin-top: -60px;
+							  margin-top: auto;
 							}
 						  </style>
 						<img src="OK.gif" alt="This is an animated gif image, but it does not move" width="200" 
@@ -34,6 +39,7 @@
 						<nav class='flexbox' style='flex-direction: column;'>
 							<div class='flexbox' style='flex-direction: row; align-items: flex-start; justify-content: space-evenly;'>
 								<div>
+									
 									<b>Horizon</b>
 									<ul>
 										<li><a href='https://www.youtube.com/'>Youtube</a></li>
@@ -66,12 +72,6 @@
 				</tr>
 				<tr>
 					<td colspan='2'>
-						<div class='flexbox search'>	
-							<form onsubmit="return searchDDG()" style='width: 80%;'>
-								<input type="text" placeholder="Search..." id='search_box' autofocus>
-								<button type="submit"><i class="fas fa-search"></i></button>
-							</form>
-						</div>
 						<div class='flexbox' style='padding: 15px;'>
 							<div class='colcir' style='background-color:var(--crimson);    '></div>
 							<div class='colcir' style='background-color:var(--black);  '></div>
